@@ -1,0 +1,42 @@
+Symbol range map extraction starting
+Processing 1 files
+processing me\pinkulu\boomer\Boomer.java
+@|me\pinkulu\boomer\Boomer.java|8|25|me.pinkulu.boomer|package|me.pinkulu.boomer|(file)
+Class Start: me.pinkulu.boomer.Boomer
+   @|me\pinkulu\boomer\Boomer.java|524|530|String|class|java.lang.String
+   @|me\pinkulu\boomer\Boomer.java|531|539|nickData|field|me.pinkulu.boomer.Boomer|nickData|
+   @|me\pinkulu\boomer\Boomer.java|553|559|String|class|java.lang.String
+   @|me\pinkulu\boomer\Boomer.java|560|563|msg|field|me.pinkulu.boomer.Boomer|msg|
+   Method Start: onChatReceived(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|me\pinkulu\boomer\Boomer.java|604|618|onChatReceived|method|me.pinkulu.boomer.Boomer|onChatReceived|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|me\pinkulu\boomer\Boomer.java|619|642|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|me\pinkulu\boomer\Boomer.java|643|644|e|param|me.pinkulu.boomer.Boomer|onChatReceived|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\pinkulu\boomer\Boomer.java|665|668|msg|field|me.pinkulu.boomer.Boomer|msg
+      @|me\pinkulu\boomer\Boomer.java|669|679|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
+      @|me\pinkulu\boomer\Boomer.java|708|720|SoundHandler|class|net.minecraft.client.audio.SoundHandler
+      @|me\pinkulu\boomer\Boomer.java|736|745|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\pinkulu\boomer\Boomer.java|746|758|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\pinkulu\boomer\Boomer.java|761|776|getSoundHandler|method|net.minecraft.client.Minecraft|getSoundHandler|()Lnet/minecraft/client/audio/SoundHandler;
+      @|me\pinkulu\boomer\Boomer.java|820|829|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\pinkulu\boomer\Boomer.java|830|842|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\pinkulu\boomer\Boomer.java|845|853|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|me\pinkulu\boomer\Boomer.java|896|905|playSound|method|net.minecraft.client.audio.SoundHandler|playSound|(Lnet/minecraft/client/audio/ISound;)V
+      @|me\pinkulu\boomer\Boomer.java|906|927|PositionedSoundRecord|class|net.minecraft.client.audio.PositionedSoundRecord
+      @|me\pinkulu\boomer\Boomer.java|928|934|create|method|net.minecraft.client.audio.PositionedSoundRecord|create|(Lnet/minecraft/util/ResourceLocation;FFF)Lnet/minecraft/client/audio/PositionedSoundRecord;
+      @|me\pinkulu\boomer\Boomer.java|939|955|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|me\pinkulu\boomer\Boomer.java|997|1006|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\pinkulu\boomer\Boomer.java|1007|1019|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\pinkulu\boomer\Boomer.java|1022|1031|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|me\pinkulu\boomer\Boomer.java|1032|1036|posX|field|net.minecraft.entity.Entity|posX
+      @|me\pinkulu\boomer\Boomer.java|1046|1055|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\pinkulu\boomer\Boomer.java|1056|1068|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\pinkulu\boomer\Boomer.java|1071|1080|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|me\pinkulu\boomer\Boomer.java|1081|1085|posY|field|net.minecraft.entity.Entity|posY
+      @|me\pinkulu\boomer\Boomer.java|1095|1104|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\pinkulu\boomer\Boomer.java|1105|1117|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\pinkulu\boomer\Boomer.java|1120|1129|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|me\pinkulu\boomer\Boomer.java|1130|1134|posZ|field|net.minecraft.entity.Entity|posZ
+   Method End: onChatReceived(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+Class End  : me.pinkulu.boomer.Boomer
+endProcessing me\pinkulu\boomer\Boomer.java
+

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "BoomerMod",
+  "name": "Boomer Mod",
+  "description": "Mod for when boomers kill you",
+  "version": "1.0",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Pinkulu"],
+  "credits": "Pinkulu the creator of this cool mod",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
