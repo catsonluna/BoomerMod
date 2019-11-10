@@ -32,7 +32,7 @@ public class BoomerMod {
     public void onChatReceived(ClientChatReceivedEvent e) {
         String msg = e.message.getUnformattedText();
         if (msg.startsWith("You died")) {
-            Minecraft.getMinecraft().thePlayer.playSound("boomer:boomer", 5, 0);
+            Minecraft.getMinecraft().thePlayer.playSound("boomer:boomer", 5f, 0f);
         }
     }
 }
