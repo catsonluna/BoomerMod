@@ -22,8 +22,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/pinkulu/boomer/BoomerMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pinkulu/boomer/BoomerMod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/pinkulu/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sounds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/pinkulu/sounds/boomer.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sounds/boomer.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/pinkulu/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets.boomer/sounds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/pinkulu/sounds/boomer.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets.boomer/sounds/boomer.ogg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,6 +151,7 @@
     <MESSAGE value="deleted comments" />
     <MESSAGE value="idk" />
     <MESSAGE value="trying to do everything to makes the mod work" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to do everything to makes the mod work" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>
