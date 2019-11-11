@@ -1,0 +1,11 @@
+{
+  "boomer": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "boomer",
+        "stream": false
+      }
+    ]
+  }
+}

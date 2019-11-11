@@ -1,27 +1,22 @@
 package me.pinkulu.boomer;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.audio.PositionedSoundRecord;
-import net.minecraft.client.audio.SoundHandler;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 
 
-@Mod(modid = BoomerMod.MODID, version = BoomerMod.VERSION, name = BoomerMod.NAME, acceptedMinecraftVersions = BoomerMod.acceptedMinecraftVersions)
+@Mod(modid = BoomerMod.MODID, version = BoomerMod.VERSION, name = BoomerMod.NAME, acceptedMinecraftVersions = BoomerMod.acceptedMineshaftVersions)
 
 public class BoomerMod {
 
     static final String MODID = "boomer";
     static final String VERSION ="1.0";
     static final String NAME = "BoomerMod";
-    static final String acceptedMinecraftVersions = "[1.8.9]";
+    static final String acceptedMineshaftVersions = "[1.8.9]";
     private Object ITextComponent;
 
     @Mod.EventHandler
