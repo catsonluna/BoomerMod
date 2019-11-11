@@ -1,11 +1,16 @@
 package me.pinkulu.boomer;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.audio.SoundManager;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
+import net.minecraftforge.client.event.sound.SoundEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+
 
 
 
@@ -24,6 +29,8 @@ public class BoomerMod {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+    ResourceLocation s = new ResourceLocation("boomer", "boomer");
+    SoundEvent event = new SoundEvent();
 
     @SubscribeEvent
     public void onChatReceived(ClientChatReceivedEvent e) {
