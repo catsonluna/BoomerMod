@@ -3,53 +3,37 @@ Processing 1 files
 processing me\pinkulu\boomer\BoomerMod.java
 @|me\pinkulu\boomer\BoomerMod.java|8|25|me.pinkulu.boomer|package|me.pinkulu.boomer|(file)
 Class Start: me.pinkulu.boomer.BoomerMod
-   @|me\pinkulu\boomer\BoomerMod.java|753|759|String|class|java.lang.String
-   @|me\pinkulu\boomer\BoomerMod.java|760|765|MODID|field|me.pinkulu.boomer.BoomerMod|MODID|
-   @|me\pinkulu\boomer\BoomerMod.java|798|804|String|class|java.lang.String
-   @|me\pinkulu\boomer\BoomerMod.java|805|812|VERSION|field|me.pinkulu.boomer.BoomerMod|VERSION|
-   @|me\pinkulu\boomer\BoomerMod.java|838|844|String|class|java.lang.String
-   @|me\pinkulu\boomer\BoomerMod.java|845|849|NAME|field|me.pinkulu.boomer.BoomerMod|NAME|
-   @|me\pinkulu\boomer\BoomerMod.java|882|888|String|class|java.lang.String
-   @|me\pinkulu\boomer\BoomerMod.java|889|914|acceptedMinecraftVersions|field|me.pinkulu.boomer.BoomerMod|acceptedMinecraftVersions|
-   @|me\pinkulu\boomer\BoomerMod.java|940|946|String|class|java.lang.String
-   @|me\pinkulu\boomer\BoomerMod.java|947|950|msg|field|me.pinkulu.boomer.BoomerMod|msg|
+   @|me\pinkulu\boomer\BoomerMod.java|802|808|String|class|java.lang.String
+   @|me\pinkulu\boomer\BoomerMod.java|809|814|MODID|field|me.pinkulu.boomer.BoomerMod|MODID|
+   @|me\pinkulu\boomer\BoomerMod.java|844|850|String|class|java.lang.String
+   @|me\pinkulu\boomer\BoomerMod.java|851|858|VERSION|field|me.pinkulu.boomer.BoomerMod|VERSION|
+   @|me\pinkulu\boomer\BoomerMod.java|884|890|String|class|java.lang.String
+   @|me\pinkulu\boomer\BoomerMod.java|891|895|NAME|field|me.pinkulu.boomer.BoomerMod|NAME|
+   @|me\pinkulu\boomer\BoomerMod.java|928|934|String|class|java.lang.String
+   @|me\pinkulu\boomer\BoomerMod.java|935|960|acceptedMinecraftVersions|field|me.pinkulu.boomer.BoomerMod|acceptedMinecraftVersions|
+   @|me\pinkulu\boomer\BoomerMod.java|986|992|Object|class|java.lang.Object
+   @|me\pinkulu\boomer\BoomerMod.java|993|1007|ITextComponent|field|me.pinkulu.boomer.BoomerMod|ITextComponent|
    Method Start: onInitialization(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|me\pinkulu\boomer\BoomerMod.java|991|1007|onInitialization|method|me.pinkulu.boomer.BoomerMod|onInitialization|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|me\pinkulu\boomer\BoomerMod.java|1008|1030|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|me\pinkulu\boomer\BoomerMod.java|1031|1036|event|param|me.pinkulu.boomer.BoomerMod|onInitialization|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|me\pinkulu\boomer\BoomerMod.java|1048|1062|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|me\pinkulu\boomer\BoomerMod.java|1063|1072|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|me\pinkulu\boomer\BoomerMod.java|1073|1081|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|me\pinkulu\boomer\BoomerMod.java|1048|1064|onInitialization|method|me.pinkulu.boomer.BoomerMod|onInitialization|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me\pinkulu\boomer\BoomerMod.java|1065|1087|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|me\pinkulu\boomer\BoomerMod.java|1088|1093|event|param|me.pinkulu.boomer.BoomerMod|onInitialization|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|me\pinkulu\boomer\BoomerMod.java|1105|1119|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|me\pinkulu\boomer\BoomerMod.java|1120|1129|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|me\pinkulu\boomer\BoomerMod.java|1130|1138|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
    Method End: onInitialization(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: onChatReceived(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
-      @|me\pinkulu\boomer\BoomerMod.java|1133|1147|onChatReceived|method|me.pinkulu.boomer.BoomerMod|onChatReceived|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
-      @|me\pinkulu\boomer\BoomerMod.java|1148|1171|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
-      @|me\pinkulu\boomer\BoomerMod.java|1172|1173|e|param|me.pinkulu.boomer.BoomerMod|onChatReceived|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
-      @|me\pinkulu\boomer\BoomerMod.java|1194|1197|msg|field|me.pinkulu.boomer.BoomerMod|msg
-      @|me\pinkulu\boomer\BoomerMod.java|1198|1208|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
-      @|me\pinkulu\boomer\BoomerMod.java|1237|1249|SoundHandler|class|net.minecraft.client.audio.SoundHandler
-      @|me\pinkulu\boomer\BoomerMod.java|1265|1274|Minecraft|class|net.minecraft.client.Minecraft
-      @|me\pinkulu\boomer\BoomerMod.java|1275|1287|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|me\pinkulu\boomer\BoomerMod.java|1290|1305|getSoundHandler|method|net.minecraft.client.Minecraft|getSoundHandler|()Lnet/minecraft/client/audio/SoundHandler;
-      @|me\pinkulu\boomer\BoomerMod.java|1349|1358|Minecraft|class|net.minecraft.client.Minecraft
-      @|me\pinkulu\boomer\BoomerMod.java|1359|1371|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|me\pinkulu\boomer\BoomerMod.java|1374|1382|theWorld|field|net.minecraft.client.Minecraft|theWorld
-      @|me\pinkulu\boomer\BoomerMod.java|1425|1434|playSound|method|net.minecraft.client.audio.SoundHandler|playSound|(Lnet/minecraft/client/audio/ISound;)V
-      @|me\pinkulu\boomer\BoomerMod.java|1435|1456|PositionedSoundRecord|class|net.minecraft.client.audio.PositionedSoundRecord
-      @|me\pinkulu\boomer\BoomerMod.java|1457|1463|create|method|net.minecraft.client.audio.PositionedSoundRecord|create|(Lnet/minecraft/util/ResourceLocation;FFF)Lnet/minecraft/client/audio/PositionedSoundRecord;
-      @|me\pinkulu\boomer\BoomerMod.java|1468|1484|ResourceLocation|class|net.minecraft.util.ResourceLocation
-      @|me\pinkulu\boomer\BoomerMod.java|1524|1533|Minecraft|class|net.minecraft.client.Minecraft
-      @|me\pinkulu\boomer\BoomerMod.java|1534|1546|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|me\pinkulu\boomer\BoomerMod.java|1549|1558|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
-      @|me\pinkulu\boomer\BoomerMod.java|1559|1563|posX|field|net.minecraft.entity.Entity|posX
-      @|me\pinkulu\boomer\BoomerMod.java|1573|1582|Minecraft|class|net.minecraft.client.Minecraft
-      @|me\pinkulu\boomer\BoomerMod.java|1583|1595|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|me\pinkulu\boomer\BoomerMod.java|1598|1607|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
-      @|me\pinkulu\boomer\BoomerMod.java|1608|1612|posY|field|net.minecraft.entity.Entity|posY
-      @|me\pinkulu\boomer\BoomerMod.java|1622|1631|Minecraft|class|net.minecraft.client.Minecraft
-      @|me\pinkulu\boomer\BoomerMod.java|1632|1644|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|me\pinkulu\boomer\BoomerMod.java|1647|1656|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
-      @|me\pinkulu\boomer\BoomerMod.java|1657|1661|posZ|field|net.minecraft.entity.Entity|posZ
+      @|me\pinkulu\boomer\BoomerMod.java|1190|1204|onChatReceived|method|me.pinkulu.boomer.BoomerMod|onChatReceived|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|me\pinkulu\boomer\BoomerMod.java|1205|1228|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|me\pinkulu\boomer\BoomerMod.java|1229|1230|e|param|me.pinkulu.boomer.BoomerMod|onChatReceived|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\pinkulu\boomer\BoomerMod.java|1242|1248|String|class|java.lang.String
+      @|me\pinkulu\boomer\BoomerMod.java|1255|1256|e|param|me.pinkulu.boomer.BoomerMod|onChatReceived|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|me\pinkulu\boomer\BoomerMod.java|1257|1264|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|me\pinkulu\boomer\BoomerMod.java|1265|1283|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|me\pinkulu\boomer\BoomerMod.java|1303|1313|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
+      @|me\pinkulu\boomer\BoomerMod.java|1341|1350|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\pinkulu\boomer\BoomerMod.java|1351|1363|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\pinkulu\boomer\BoomerMod.java|1366|1375|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|me\pinkulu\boomer\BoomerMod.java|1376|1385|playSound|method|net.minecraft.entity.Entity|playSound|(Ljava/lang/String;FF)V
    Method End: onChatReceived(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
 Class End  : me.pinkulu.boomer.BoomerMod
 endProcessing me\pinkulu\boomer\BoomerMod.java

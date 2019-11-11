@@ -20,10 +20,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/me.pinkulu.assets/sound/OkBoomer.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/me.pinkulu.assets/sounds.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" beforeDir="false" afterPath="$PROJECT_DIR$/build/retromapping/replacedMain.rangemap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/pinkulu/boomer/BoomerMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/pinkulu/boomer/BoomerMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/pinkulu/sounds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sounds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/pinkulu/sounds/boomer.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/sounds/boomer.ogg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/.gradle" />
     <property name="last_opened_file_path" value="C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Git/Git GUI.lnk" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -61,11 +61,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\krist\Desktop\Boomer\src\main\resources\me.pinkulu.assets\OkBoomer" />
+      <recent name="C:\Users\krist\Desktop\Boomer\src\main\resources\assets" />
       <recent name="C:\Users\krist\Desktop\Boomer\src\main\resources" />
+      <recent name="C:\Users\krist\Desktop\Boomer\src\main\resources\me.pinkulu.assets\OkBoomer" />
       <recent name="C:\Users\krist\Desktop\Boomer\src\main\java" />
       <recent name="C:\Users\krist\Desktop\Boomer\src\main" />
-      <recent name="C:\Users\krist\Desktop\Boomer\src\main\java\me\pinkulu\assets\sound" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,11 +96,7 @@
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2">
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Boomer:jar" />
-        </option>
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -128,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573408248215</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="trying to do everything to makes the mod work">
+      <created>1573446778563</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573446778563</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleted comments" />
     <MESSAGE value="idk" />
-    <option name="LAST_COMMIT_MESSAGE" value="idk" />
+    <MESSAGE value="trying to do everything to makes the mod work" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to do everything to makes the mod work" />
   </component>
 </project>
