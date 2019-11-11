@@ -1,16 +1,18 @@
 [
-{
-  "modid": "BoomerMod",
-  "name": "Boomer Mod",
-  "description": "Mod for when boomers kill you",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["Pinkulu"],
-  "credits": "Pinkulu the creator of this cool mod",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
+  {
+    "modid": "BoomerMod",
+    "name": "Boomer Mod",
+    "description": "Mod for when boomers kill you",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Pinkulu"
+    ],
+    "credits": "Pinkulu the creator of this cool mod",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
 ]

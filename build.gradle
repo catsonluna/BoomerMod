@@ -14,36 +14,40 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 
 version = "1.0"
-group= "me.pinkulu.boomermod"
+group = "me.pinkulu.boomermod"
 archivesBaseName = "BoomerMod"
 
 minecraft {
-    version = "1.8.9-11.15.1.1722"
+    version = "1.8.9-11.15.1.2318-1.8.9"
     runDir = "run"
-
-    mappings = "stable_20"
+    mappings = "stable_22"
+    makeObfSourceJar = false
 }
 
 dependencies {
 
 }
 
-processResources
-{
-
+processResources {
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
 
-
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
-                
-
-        expand 'version':project.version, 'mcversion':project.minecraft.version
+        expand 'version': project.version, 'mcversion': project.minecraft.version
     }
-        
 
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
 }
+
+task moveResources {
+    doLast {
+        ant.move file: "${buildDir}/resources/main",
+                todir: "${buildDir}/classes/java"
+    }
+}
+
+moveResources.dependsOn processResources
+classes.dependsOn moveResources
