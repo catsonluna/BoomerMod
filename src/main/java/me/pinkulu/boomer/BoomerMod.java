@@ -17,6 +17,7 @@ public class BoomerMod {
     static final String acceptedMineshaftVersions = "[1.8.9]";
     private ResourceLocation soundLocation = new ResourceLocation("boomer", "boomer");
 
+
     @Mod.EventHandler
     public void onInitialization(FMLInitializationEvent event) {
         MinecraftForge.EVENT_BUS.register(this);
@@ -25,7 +26,13 @@ public class BoomerMod {
     @SubscribeEvent
     public void onChatReceived(ClientChatReceivedEvent e) {
         String msg = e.message.getUnformattedText();
+        //SkyWars
         if (msg.startsWith("You died")) {
+            Minecraft.getMinecraft().thePlayer.playSound(soundLocation.toString(), 1.0f, 1.0f);
+        }else if (msg.startsWith("+") && msg.contains("Kill") && msg.contains("coins")) {
+            Minecraft.getMinecraft().thePlayer.playSound(soundLocation.toString(), 1.0f, 1.0f);
+        //BedWars
+        }else if (msg.endsWith("FINAL KILL")) {
             Minecraft.getMinecraft().thePlayer.playSound(soundLocation.toString(), 1.0f, 1.0f);
         }
     }
