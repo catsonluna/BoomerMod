@@ -32,7 +32,7 @@ public class BoomerMod {
         }else if (msg.startsWith("+") && msg.contains("Kill") && msg.contains("coins")) {
             Minecraft.getMinecraft().thePlayer.playSound(soundLocation.toString(), 1.0f, 1.0f);
         //BedWars
-        }else if (msg.endsWith("FINAL KILL") && msg.contains("by") {
+        }else if (msg.endsWith("FINAL KILL") && msg.contains("by")) {
             Minecraft.getMinecraft().thePlayer.playSound(soundLocation.toString(), 1.0f, 1.0f);
         }
     }
