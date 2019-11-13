@@ -36,6 +36,8 @@ public class BoomerMod {
         }else if (msg.endsWith("FINAL KILL")) {
             Minecraft.getMinecraft().thePlayer.playSound(soundLocation.toString(), 1.0f, 1.0f);
             //Survival
+        }else if (Minecraft.getMinecraft().thePlayer.isDead){
+            Minecraft.getMinecraft().thePlayer.playSound(soundLocation.toString(), 1.0f, 1.0f);
         }
     }
 }
