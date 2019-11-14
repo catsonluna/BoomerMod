@@ -24,10 +24,16 @@ minecraft {
     makeObfSourceJar = false
 }
 
-dependencies {
-
+repositories {
+    maven {
+        name 'Amplifiable\'s Repo'
+        url 'https://maven.amplifiable.tk'
+    }
 }
 
+dependencies {
+    compile 'tk.npecode:config:1.0.0'
+}
 processResources {
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
