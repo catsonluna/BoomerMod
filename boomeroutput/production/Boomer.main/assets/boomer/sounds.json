@@ -1,0 +1,8 @@
+{
+  "boomer": {
+    "category": "player",
+    "sounds": [
+      "boomer:boomer"
+    ]
+  }
+}
